@@ -112,7 +112,7 @@ button:disabled {
   }
 
   h1 {
-    font-size: 3.2rem;
+    font-size: 3.8rem;
     margin-bottom: 32px;
   }
 
@@ -120,6 +120,8 @@ button:disabled {
     padding: 24px 0;
     margin-bottom: 32px;
     font-size: 1.7rem;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   label {
@@ -144,6 +146,7 @@ button:disabled {
     font-size: 3.5rem;
     padding: 56px 0;
     min-height: 140px;
-    margin-top: 32px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
