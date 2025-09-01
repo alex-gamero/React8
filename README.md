@@ -9,6 +9,11 @@ Whether you’re an athlete, gamer, or just looking to boost your reflexes, Reac
 
 ---
 
+## 📷 Preview
+![Demo of React8](assetsREADME/react8_home_page.gif)
+
+---
+
 ## 🚀 Features
 - 🎯 Random direction cues in 8 possible directions  
 - ⏱️ Adjustable interval between cues (train at your own pace)  
@@ -36,8 +41,3 @@ Whether you’re an athlete, gamer, or just looking to boost your reflexes, Reac
 - ✅ More training modes (reaction + memory + pattern drills)  
 - ✅ Sound and vibration cues for extra challenge  
 - ✅ Stats tracking (best time, average reaction)  
-
----
-
-## 📷 Preview
-![Demo of React8](assetsREADME/react8_home_page.gif)
