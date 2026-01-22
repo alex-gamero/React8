@@ -14,15 +14,15 @@ Whether you’re an athlete, gamer, or just looking to boost your reflexes, Reac
 
 ---
 
-## 🚀 Features
-- 🎯 Random direction cues in 8 possible directions  
-- ⏱️ Adjustable interval between cues (train at your own pace)  
-- 📱 Mobile-friendly design — use it on your phone or computer  
-- 🕹️ Simple and intuitive interface  
+## Features
+- Random direction cues in 8 possible directions  
+- Adjustable interval between cues (train at your own pace)  
+- Mobile-friendly design — use it on your phone or computer  
+- Simple and intuitive interface  
 
 ---
 
-## 📖 How it works
+## How it works
 1. Set the interval time in seconds.  
 2. Press **Start**.  
 3. Follow the direction that appears in the training box.  
@@ -37,7 +37,7 @@ Whether you’re an athlete, gamer, or just looking to boost your reflexes, Reac
 
 ---
 
-## 🔮 Coming Soon
-- ✅ More training modes (reaction + memory + pattern drills)  
-- ✅ Sound and vibration cues for extra challenge  
-- ✅ Stats tracking (best time, average reaction)  
+## Coming Soon
+- More training modes (reaction + memory + pattern drills)  
+- Sound and vibration cues for extra challenge  
+- Stats tracking (best time, average reaction)  
