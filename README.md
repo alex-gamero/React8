@@ -1,4 +1,4 @@
-# React8 ⚡️
+# React8 
 
 React8 is a **reaction and acceleration training tool** designed to sharpen your speed, agility, and response time.  
 It challenges you to move in **8 directions** based on random cues that appear at customizable intervals.
@@ -9,7 +9,7 @@ Whether you’re an athlete, gamer, or just looking to boost your reflexes, Reac
 
 ---
 
-## 📷 Preview
+## Preview
 ![Demo of React8](assetsREADME/react8_home_page.gif)
 
 ---
