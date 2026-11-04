@@ -18,17 +18,6 @@ Random cues in 8 directions at your pace. Move as soon as you see one, or hear i
 
 ---
 
-## Features
-| | |
-|---|---|
-| 🧭 **8 directions** | Up, down, left, right and all four diagonals, picked at random |
-| 🔊 **Voice cues** | Every direction is also called out loud, so you don't need to watch the screen |
-| ⏱️ **Your pace** | Set the time between cues in seconds |
-| 🎚️ **Adaptive audio** | Voice cues speed up when the interval is short |
-| 📱 **Train anywhere** | Works on your phone or computer, no install needed |
-
----
-
 ## How it works
 1. Set the interval in seconds.
 2. Press **Start**.
