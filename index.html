@@ -1,22 +1,18 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>React8</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <h1>React8</h1>
-    <div class="settings">
-      <label for="interval">Interval (seconds):</label>
-      <input type="number" id="interval" min="1" value="2">
-      <br><br>
-      <button id="stopBtn">Stop</button>
-      <button id="startBtn">Start</button>
-    </div>
-    <div class="direction-box" id="directionBox">✧</div>
-  </div>
-  <script src="logic.js"></script>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#14227a" />
+    <meta name="description" content="Reaction and agility drills for athletes. Random cues in 8 directions, sets and rest, go/no-go, memory chains and a volleyball mode." />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon-192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>React8</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

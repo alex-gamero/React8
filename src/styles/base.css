@@ -1,0 +1,113 @@
+@import '@fontsource-variable/big-shoulders-display';
+@import '@fontsource-variable/instrument-sans';
+
+/*
+  React8 — "Court lines"
+  A painted sports floor: cobalt court, white line paint for structure,
+  gym-tape yellow for the thing you react to.
+*/
+
+:root {
+  --court: #14227a;
+  --court-deep: #0c1652;
+  --court-lift: #1d2f96;
+  --line: #f2f4ff;
+  --line-dim: rgba(242, 244, 255, 0.66);
+  --line-faint: rgba(242, 244, 255, 0.16);
+  --line-muted: #8b93cc; /* solid, so overlapping strokes don't double up */
+  --tape: #ffd43b;
+  --tape-ink: #1a1400;
+  --hold: #ff5c7a;
+
+  --display: 'Big Shoulders Display Variable', 'Arial Narrow', sans-serif;
+  --text: 'Instrument Sans Variable', system-ui, sans-serif;
+
+  /* Type scale, 1.25 ratio from 16px */
+  --fs-small: 0.8125rem;
+  --fs-body: 1rem;
+  --fs-lead: 1.25rem;
+  --fs-h3: 1.5625rem;
+  --fs-h2: 2.4rem;
+  --fs-h1: 3.8rem;
+
+  --gutter: 16px;
+  --paint: 2px; /* line-paint thickness */
+  --radius-s: 6px;
+  --radius-pill: 999px;
+
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background: var(--court);
+  color: var(--line);
+  font-family: var(--text);
+  font-size: var(--fs-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--display);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: 0.005em;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+:focus-visible {
+  outline: 3px solid var(--tape);
+  outline-offset: 3px;
+  border-radius: var(--radius-s);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
